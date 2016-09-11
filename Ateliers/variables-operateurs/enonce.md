@@ -43,6 +43,11 @@ Exercices
    modulo. Affichez "Le nombre x est pair." ou "Le nombre x est impair." selon
    le cas. Évidemment, remplacez x par le contenu de la variable dans le message.
 
-9. Placez les valeurs numériques suivantes dans des variables de type char : 80, 105, 107, 87, 99, 104, 117.
+9. Placez les valeurs numériques suivantes dans des variables de type char : 80, 105, 107, 97, 99, 104, 117.
    Affichez ces caractères sur la même ligne, dans cet ordre. Comment
    expliquez-vous ce résultat jaune et électrisant?
+
+Solutions
+---------
+
+* [Solution.java](Exercices #1 à 9)
