@@ -50,4 +50,4 @@ Exercices
 Solutions
 ---------
 
-* [Solution.java](Exercices #1 à 9)
+* [Exercices #1 à 9](Solution.java)
