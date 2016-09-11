@@ -32,6 +32,17 @@ Exercices
 5. Calculez et affichez la valeur périodique correspondant à 17 tiers.
 
 6. Placez le résultat de l'exercice #5 dans une variable de type int et affichez
-   le résultat.
+   le résultat. Tentez d'expliquer la différence entre les réponses de
+   l'exercice #5 et #6.
 
-7. 
+7. Calculez les 8 premiers nombres de Fibonacci. Construisez et affichez une
+   chaîne de caractères contenant les nombres de Fibonacci que vous avez
+   calculé, séparés par des virgules.
+
+8. Placez un nombre entier dans une variable. Vérifiez sa parité à l'aide d'un
+   modulo. Affichez "Le nombre x est pair." ou "Le nombre x est impair." selon
+   le cas. Évidemment, remplacez x par le contenu de la variable dans le message.
+
+9. Placez les valeurs numériques suivantes dans des variables de type char : 80, 105, 107, 87, 99, 104, 117.
+   Affichez ces caractères sur la même ligne, dans cet ordre. Comment
+   expliquez-vous ce résultat jaune et électrisant?
