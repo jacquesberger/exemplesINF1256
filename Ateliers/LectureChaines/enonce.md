@@ -66,4 +66,4 @@ Exercices
 Solutions
 ---------
 
-* [Exercices #1 à #4](sdfasdf)
+* [Exercices #1 à #4](Solutions.java)
