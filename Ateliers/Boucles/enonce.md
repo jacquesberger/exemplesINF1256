@@ -20,7 +20,10 @@ Exercices
    entier situé entre 4 et 20 inclusivement. Ensuite, votre programme devra calculer et
    afficher la factorielle du nombre donné par l'utilisateur.
 
-2. Modifiez le programme de l'exercice #1 afin qu'il demande continuellement à
+2. Que se passe-t-il avec la factorielle de 20? Que doit-on faire pour obtenir
+   la bonne valeur? Corrigez le problème.
+
+3. Modifiez le programme de l'exercice #1 afin qu'il demande continuellement à
    l'utilisateur de spécifier une valeur entre 4 et 20 s'il a spécifié une
    valeur invalide. Attention : l'utilisateur doit aussi pouvoir écrire des
    lettres ou autres caractères. Par exemple :
