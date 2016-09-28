@@ -38,3 +38,8 @@ Exercices
      Veuillez entrer un nombre entre 4 et 20 inclusivement : 4
      La factorielle de 4 est 24.
    ```
+
+Solution
+--------
+
+* [Exercices #1 à #3](Solution.java)
