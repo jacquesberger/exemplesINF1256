@@ -52,7 +52,8 @@ Exercices
     }
     ```
 
-Solution
---------
+Solutions
+---------
 
 * [Exercices #1 à #3](Solution.java)
+* [Exercice #4](Solution4.java)
