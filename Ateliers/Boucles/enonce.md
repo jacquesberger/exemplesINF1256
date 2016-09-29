@@ -39,6 +39,19 @@ Exercices
      La factorielle de 4 est 24.
    ```
 
+4. Transformer le code suivant pour utiliser une boucle `while` à la place d'une
+   boucle `for`.
+   ```
+    // Trouver les 4 premiers multiples de 17 entre 1 et 100 inclusivement
+    int nombreMultiples = 0;
+    for (int i = 1; i <= 100 && nombreMultiples < 4; i++) {
+        if (i % 17 == 0) {
+            System.out.println(i);
+            nombreMultiples++;
+        }
+    }
+    ```
+
 Solution
 --------
 
