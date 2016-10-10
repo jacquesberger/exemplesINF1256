@@ -26,85 +26,133 @@
 import java.util.*;
 
 class Solutions {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
     
-    // Exercice 1
-    /*
-    Scanner clavier = new Scanner(System.in);
-    System.out.print("Entrez x: ");
-    double x = clavier.nextDouble();
-    System.out.print("Entrez y: ");
-    double y = clavier.nextDouble();
-    System.out.println(String.format("x + y = %f", x + y));
-    System.out.println(String.format("x - y = %f", x - y));
-    System.out.println(String.format("x * y = %f", x * y));
-    System.out.println(String.format("x / y = %f", x / y));
-    */
+        // Exercice 1
+        /*
+        Scanner clavier = new Scanner(System.in);
+        System.out.print("Entrez x: ");
+        double x = clavier.nextDouble();
+        System.out.print("Entrez y: ");
+        double y = clavier.nextDouble();
+        System.out.println(String.format("x + y = %f", x + y));
+        System.out.println(String.format("x - y = %f", x - y));
+        System.out.println(String.format("x * y = %f", x * y));
+        System.out.println(String.format("x / y = %f", x / y));
+        */
     
-    // Exercice 2
-    /*
-    Scanner clavier = new Scanner(System.in);
-    System.out.print("Entrez x: ");
-    double x = clavier.nextDouble();
-    System.out.print("Entrez y: ");
-    double y = clavier.nextDouble();
-    System.out.println(String.format("x + y = %+,10.2f", x + y));
-    System.out.println(String.format("x - y = %+,10.2f", x - y));
-    System.out.println(String.format("x * y = %+,10.2f", x * y));
-    System.out.println(String.format("x / y = %+,10.2f", x / y));
-    */
+        // Exercice 2
+        /*
+        Scanner clavier = new Scanner(System.in);
+        System.out.print("Entrez x: ");
+        double x = clavier.nextDouble();
+        System.out.print("Entrez y: ");
+        double y = clavier.nextDouble();
+        System.out.println(String.format("x + y = %+,10.2f", x + y));
+        System.out.println(String.format("x - y = %+,10.2f", x - y));
+        System.out.println(String.format("x * y = %+,10.2f", x * y));
+        System.out.println(String.format("x / y = %+,10.2f", x / y));
+        */
     
-    // Exercice 3
-    /*
-    Scanner clavier = new Scanner(System.in);
-    System.out.print("Entrez le nom du mois: ");
-    String mois = clavier.nextLine();
-    int nbJours = 0;
-    switch (mois) {
-      case "janvier":
-      case "mars":
-      case "mai":
-      case "juillet":
-      case "aout":
-      case "octobre":
-      case "décembre":
-        nbJours = 31;
-        break;
-      case "avril":
-      case "juin":
-      case "septembre":
-      case "novembre":
-        nbJours = 30;
-        break;
-      case "février":
-        nbJours = 28;
-        break;
-      default:
-        break;
-    }
-    System.out.println(nbJours);
-    */
+        // Exercice 3
+        /*
+        Scanner clavier = new Scanner(System.in);
+        System.out.print("Entrez le nom du mois: ");
+        String mois = clavier.nextLine();
+        int nbJours = 0;
+        switch (mois) {
+            case "janvier":
+            case "mars":
+            case "mai":
+            case "juillet":
+            case "aout":
+            case "octobre":
+            case "décembre":
+                nbJours = 31;
+                break;
+            case "avril":
+            case "juin":
+            case "septembre":
+            case "novembre":
+                nbJours = 30;
+                break;
+            case "février":
+                nbJours = 28;
+                break;
+            default:
+                break;
+        }
+        System.out.println(nbJours);
+        */
     
-    // Exercice 4
-    /*
-    Scanner clavier = new Scanner(System.in);
-    System.out.print("Entrez une année: ");
-    int annee = clavier.nextInt();
-    boolean bissextile = false;
-    if (annee % 4 != 0) {
-      bissextile = false;
-    } else if (annee % 100 != 0) {
-      bissextile = true;
-    } else if (annee % 400 != 0) {
-      bissextile = false;
-    } else {
-      bissextile = true;
-    }
-    if (bissextile) {
-      System.out.println(String.format("%d est bissextile", annee));
-    } else {
-      System.out.println(String.format("%d n'est pas bissextile", annee));
-    }
-    */
+        // Exercice 4
+        /*
+        Scanner clavier = new Scanner(System.in);
+        System.out.print("Entrez une année: ");
+        int annee = clavier.nextInt();
+        boolean bissextile = false;
+        if (annee % 4 != 0) {
+            bissextile = false;
+        } else if (annee % 100 != 0) {
+            bissextile = true;
+        } else if (annee % 400 != 0) {
+            bissextile = false;
+        } else {
+            bissextile = true;
+        }
+        if (bissextile) {
+            System.out.println(String.format("%d est bissextile", annee));
+        } else {
+            System.out.println(String.format("%d n'est pas bissextile", annee));
+        }
+        */
+
+        // Exercice 5
+        /*
+        Scanner clavier = new Scanner(System.in);
+        System.out.print("Entrez le nom du mois: ");
+        String mois = clavier.nextLine();
+        int nbJours = 0;
+        switch (mois) {
+            case "janvier":
+            case "mars":
+            case "mai":
+            case "juillet":
+            case "aout":
+            case "octobre":
+            case "décembre":
+                nbJours = 31;
+                break;
+            case "avril":
+            case "juin":
+            case "septembre":
+            case "novembre":
+                nbJours = 30;
+                break;
+            case "février":
+                System.out.println("Quelle année : ");
+                String anneeBrute = clavier.nextLine();
+                int annee = Integer.parseInt(anneeBrute);
+                boolean bissextile = false;
+                if (annee % 4 != 0) {
+                    bissextile = false;
+                } else if (annee % 100 != 0) {
+                    bissextile = true;
+                } else if (annee % 400 != 0) {
+                    bissextile = false;
+                } else {
+                    bissextile = true;
+                }
+                if (bissextile) {
+                    nbJours = 29;
+                } else {
+                    nbJours = 28;
+                }
+                break;
+            default:
+                break;
+        }
+        System.out.println(nbJours);
+        */    
   }
 }
