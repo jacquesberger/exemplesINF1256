@@ -15,22 +15,21 @@ Exercices
 
 1. Les deux solutions de la formule quadratique sont données par l'équation suivante:
 
-![equation](http://latex.codecogs.com/gif.latex?x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a})
+    ![equation](http://latex.codecogs.com/gif.latex?x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a})
 
-À l'aide des fonctions appropriées du module `Math`, écrivez un programme qui calcule les deux valeurs de `x` si:
-    ```
-    a = 1.0
-    b = 2.0
-    c = 3.0
-    ```
+    À l'aide des fonctions appropriées du module `Math`, écrivez un programme qui calcule les deux valeurs de `x` si:
+        ```
+        a = 1.0
+        b = 2.0
+        c = 3.0
+        ```
 
-## Exercice 2
+2. En utilisant les fonctions et constantes appropriées du module `Math`, calculez
+   l'aire et le volume d'une sphère si son rayon est `3.0`.
 
-En utilisant les fonctions et constantes appropriées du module `Math`, calculez l'aire et le volume d'une sphère si son rayon est `3.0`.
+    ![equation](http://latex.codecogs.com/gif.latex?A=4\\pi\ r^2)
 
-![equation](http://latex.codecogs.com/gif.latex?A=4\\pi\ r^2)
-
-![equation](http://latex.codecogs.com/gif.latex?V=\\frac{4}{3}\\pi\ r^3)
+    ![equation](http://latex.codecogs.com/gif.latex?V=\\frac{4}{3}\\pi\ r^3)
 
 ## Exercice 3
 
