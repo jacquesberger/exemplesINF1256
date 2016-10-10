@@ -61,6 +61,7 @@ Exercices
     y = 3.0
     ```
 
-## Solutions
+Solutions
+---------
 
-[https://repl.it/DrR1](https://repl.it/DrR1)
+* [Exercices #1 à #4](Solutions.java)
