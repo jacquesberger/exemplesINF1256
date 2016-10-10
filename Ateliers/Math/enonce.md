@@ -18,11 +18,11 @@ Exercices
     ![equation](http://latex.codecogs.com/gif.latex?x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a})
 
     À l'aide des fonctions appropriées du module `Math`, écrivez un programme qui calcule les deux valeurs de `x` si:
-        ```
-        a = 1.0
-        b = 2.0
-        c = 3.0
-        ```
+    ```
+    a = 1.0
+    b = 2.0
+    c = 3.0
+    ```
 
 2. En utilisant les fonctions et constantes appropriées du module `Math`, calculez
    l'aire et le volume d'une sphère si son rayon est `3.0`.
@@ -56,10 +56,10 @@ Exercices
     \\end{cases})
 
     À l'aide des fonctions appropriées du module `Math` et de conditions, écrivez un programme qui calcule `r` et ![equation](http://latex.codecogs.com/gif.latex?\\theta) si
-        ```
-        x = 2.0
-        y = 3.0
-        ```
+    ```
+    x = 2.0
+    y = 3.0
+    ```
 
 ## Solutions
 
