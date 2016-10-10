@@ -31,35 +31,35 @@ Exercices
 
     ![equation](http://latex.codecogs.com/gif.latex?V=\\frac{4}{3}\\pi\ r^3)
 
-## Exercice 3
+3. Il y a 600 ans, [Madhava de Sangamagrama](https://fr.wikipedia.org/wiki/Madhava_de_Sangamagrama) a découvert
+   une formule pour calculer le nombre ![equation](http://latex.codecogs.com/gif.latex?\\pi):
 
-Il y a 600 ans, [Madhava de Sangamagrama](https://fr.wikipedia.org/wiki/Madhava_de_Sangamagrama) a découvert une formule pour calculer le nombre ![equation](http://latex.codecogs.com/gif.latex?\\pi):
+    ![equation](http://latex.codecogs.com/gif.latex?\\pi=4\\left(1-\\frac13+\\frac15-\\frac17+\\cdots\\right)=4\\sum_{k=0}^{\\infty}\\frac{(-1)^k}{2k+1})
 
-![equation](http://latex.codecogs.com/gif.latex?\\pi=4\\left(1-\\frac13+\\frac15-\\frac17+\\cdots\\right)=4\\sum_{k=0}^{\\infty}\\frac{(-1)^k}{2k+1})
+    En utilisant une boucle et les fonctions appropriées du module `Math`, calculez la valeur de ![equation](http://latex.codecogs.com/gif.latex?\\pi). Évidemment, puisque qu'il n'est pas pratique de faire une boucle infinie, limitez votre boucle à 1000 itérations.
 
-En utilisant une boucle et les fonctions appropriées du module `Math`, calculez la valeur de ![equation](http://latex.codecogs.com/gif.latex?\\pi). Évidemment, puisque qu'il n'est pas pratique de faire une boucle infinie, limitez votre boucle à 1000 itérations.
+4. En géométrie, pour décrire un point sur un plan euclidien, on peut utiliser
+   un système de coordonnées cartésiennes (x, y) ou un système de coordonnées
+   polaires (r, ![equation](http://latex.codecogs.com/gif.latex?\\theta)) (lettre grecque _theta_).
 
-## Exercice 4
+    Il est possible de convertir une coordonnée cartésienne en coordonnée polaire avec les formules suivantes:
 
-En géométrie, pour décrire un point sur un plan euclidien, on peut utiliser un système de coordonnées cartésiennes (x, y) ou un système de coordonnées polaires (r, ![equation](http://latex.codecogs.com/gif.latex?\\theta)) (lettre grecque _theta_).
+    ![equation](http://latex.codecogs.com/gif.latex?r = \\sqrt{x^2 + y^2})
 
-Il est possible de convertir une coordonnée cartésienne en coordonnée polaire avec les formules suivantes:
+    ![equation](http://latex.codecogs.com/gif.latex?\\theta=\\begin{cases}
+    \\arctan(\\frac yx)& \\mbox{si } x > 0 \\mbox{ et } y \\ge 0,\\\\
+    \\arctan(\\frac yx) + 2\\pi & \\mbox{si } x > 0 \\mbox{ et } y < 0,\\\\
+    \\arctan(\\frac yx) + \\pi  & \\mbox{si } x < 0,\\\\
+    \\frac{\\pi}2& \\mbox{si } x = 0 \\mbox{ et } y > 0,\\\\
+    \\frac{3\\pi}2& \\mbox{si } x = 0 \\mbox{ et } y < 0,\\\\
+    0& \\mbox{si } x = 0 \\mbox{ et } y = 0.\\\\
+    \\end{cases})
 
-![equation](http://latex.codecogs.com/gif.latex?r = \\sqrt{x^2 + y^2})
-
-![equation](http://latex.codecogs.com/gif.latex?\\theta=\\begin{cases}
-\\arctan(\\frac yx)& \\mbox{si } x > 0 \\mbox{ et } y \\ge 0,\\\\
-\\arctan(\\frac yx) + 2\\pi & \\mbox{si } x > 0 \\mbox{ et } y < 0,\\\\
-\\arctan(\\frac yx) + \\pi  & \\mbox{si } x < 0,\\\\
-\\frac{\\pi}2& \\mbox{si } x = 0 \\mbox{ et } y > 0,\\\\
-\\frac{3\\pi}2& \\mbox{si } x = 0 \\mbox{ et } y < 0,\\\\
-0& \\mbox{si } x = 0 \\mbox{ et } y = 0.\\\\
-\\end{cases})
-
-À l'aide des fonctions appropriées du module `Math` et de conditions, écrivez un programme qui calcule `r` et ![equation](http://latex.codecogs.com/gif.latex?\\theta) si
-
-    x = 2.0
-    y = 3.0
+    À l'aide des fonctions appropriées du module `Math` et de conditions, écrivez un programme qui calcule `r` et ![equation](http://latex.codecogs.com/gif.latex?\\theta) si
+        ```
+        x = 2.0
+        y = 3.0
+        ```
 
 ## Solutions
 
