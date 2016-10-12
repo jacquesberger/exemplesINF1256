@@ -51,4 +51,7 @@ le papier bat la roche; les ciseaux battent le papier.
 3. Faites en sorte que le programme se termine lorsqu'un des deux joueurs
    (l'utilisateur ou l'ordinateur) aura gagné 3 parties.
 
+Solutions
+---------
 
+* [Exercice #3](Solution3.java)
