@@ -20,15 +20,15 @@ Exercices
 
     ```java
     public static int min (int a, int b) {
-      // Retourne la valeur minimale entre a et b.
+        // Retourne la valeur minimale entre a et b.
     }
 
     public static int min (int a, int b, int c) {
-      // Retourne la valeur minimale entre a, b et c.
+        // Retourne la valeur minimale entre a, b et c.
     }
 
     public static int absolue (int a) {
-      // Retourne la valeur absolue de a.
+        // Retourne la valeur absolue de a.
     }
     ```
 
@@ -36,19 +36,19 @@ Exercices
 
     ```java
     public static int valeurMaximale (int[] tableau) {
-      // Retourne la plus grande valeur du tableau.
+        // Retourne la plus grande valeur du tableau.
     }
 
     public static boolean tousPair (int[] tableau) {
-      // Retourne true si tous les nombres du tableau sont pairs et false autrement.
+        // Retourne true si tous les nombres du tableau sont pairs et false autrement.
     }
 
     public static boolean existe (int valeur, int[] tableau) {
-      // Retourne true si valeur existe dans le tableau; false autrement.
+        // Retourne true si valeur existe dans le tableau; false autrement.
     }
 
     public static int[] superieursA (int valeur, int[] tableau) {
-      // Retourne un nouveau tableau ne contenant que les nombres de tableau qui sont supérieurs à "valeur".
+        // Retourne un nouveau tableau ne contenant que les nombres de tableau qui sont supérieurs à "valeur".
     }
     ```
 

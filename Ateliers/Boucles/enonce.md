@@ -41,7 +41,7 @@ Exercices
 
 4. Transformer le code suivant pour utiliser une boucle `while` à la place d'une
    boucle `for`.
-   ```
+   ```java
     // Trouver les 4 premiers multiples de 17 entre 1 et 100 inclusivement
     int nombreMultiples = 0;
     for (int i = 1; i <= 100 && nombreMultiples < 4; i++) {
