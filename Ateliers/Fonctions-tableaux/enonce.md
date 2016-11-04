@@ -63,4 +63,4 @@ Exercices
 Solutions
 ---------
 
-[https://repl.it/EO4P/1](https://repl.it/EO4P/1)
+* [Exercices #1 à #3](Solutions.java)
