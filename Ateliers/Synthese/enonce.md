@@ -39,7 +39,7 @@ Exercices
    n = taille de tableau
    POUR i de 0 à n-2
      POUR j de i+1 à n-1
-       SI tableau[i] < tableau[j] ALORS
+       SI tableau[j] < tableau[i] ALORS
          temporaire = tableau[i]
          tableau[i] = tableau[j]
          tableau[j] = temporaire
