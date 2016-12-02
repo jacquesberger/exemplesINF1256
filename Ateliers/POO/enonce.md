@@ -41,7 +41,7 @@ champs `longueur` et `largeur`. L'instanciation de la classe se ferait donc ains
     double a = c.aire(); //=> 4.0
     ```
 
-**Important**: Vous ne devriez pas avoir à réécrire la méthode `aire`!
+  **Important**: Vous ne devriez pas avoir à réécrire la méthode `aire`!
 
 4. Refaites les exercices 2 et 3 mais cette fois-ci, avec les classes `Ellipse` 
 et `Cercle`.
